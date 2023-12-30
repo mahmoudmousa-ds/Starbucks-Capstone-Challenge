@@ -10,10 +10,10 @@ import plotly.express as px
 
 # Load your data
 # Load your data
-portfolio_df = pd.read_csv('/Users/macbookpro/Desktop/Mahmoud/final/archive/portfolio.csv')
-profile_df = pd.read_csv('/Users/macbookpro/Desktop/Mahmoud/final/archive/profile.csv')
-transcript_df = pd.read_csv('/Users/macbookpro/Desktop/Mahmoud/final/archive/transcript.csv')
-df = pd.read_csv('/Users/macbookpro/Desktop/Mahmoud/final/preprocessed_data.csv')
+portfolio_df = pd.read_csv('/archive/portfolio.csv')
+profile_df = pd.read_csv('/archive/profile.csv')
+transcript_df = pd.read_csv('/archive/transcript.csv')
+df = pd.read_csv('/preprocessed_data.csv')
 
 
 # Sidebar for navigation
